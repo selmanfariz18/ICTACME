@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>ICTACME 2024</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <!-- Tailwind CSS CDN Links -->
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet" />
+</head>
+
+<body class="sm:mx-4 mx-2">
+  <header class="hidden lg:inline-block">
+    <div class="nav-header flex justify-between">
+      <h1 class="text-3xl font-bold p-5 font-mono">ICTACME</h1>
+
+      <div class="flex">
+        <div class="upper-column info-box m-5 mx-10 flex">
+          <div class="icon-box my-auto">
+            <i class="fa-solid p-2 px-3 fa-phone text-2xl"></i>
+          </div>
+          <ul class="font-mono header-text font-extrabold mx-1">
+            <li>
+              Phone <br />
+              +91 0000000000 / +91 0000000000
+            </li>
+          </ul>
+        </div>
+
+
+
+        <div class="upper-column info-box m-5 mx-10 flex">
+          <div class="icon-box p-2 px-3 my-auto">
+            <i class="fa-solid fa-envelope text-2xl"></i>
+          </div>
+          <ul class="font-mono header-text font-extrabold mx-1">
+            <li>
+              Mail to <br />
+              ictacme@kmeacollege.ac.in
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <nav
+      class="flex dropdown list-none font-semibold text-md w-2/3 absolute mx-auto nav-fixed main justify-center p-3 py-4">
+      <li>
+        <a class="p-3 m-2 hover:text-zinc-50 text-decoration-none" href="/">Home</a>
+      </li>
+      <li>
+        <a class="p-3 m-2 hover:text-zinc-50 text-decoration-none" href="#conference-section">About
+        </a>
+      </li>
+      <li>
+        <a class="p-3 m-2 hover:text-zinc-50 text-decoration-none" href="#">Commitee</a>
+      </li>
+      <li>
+        <a class="p-3 m-2 hover:text-zinc-50 text-decoration-none" href="register.html">Registration</a>
+      </li>
+      <li>
+        <a class="p-3 m-2 hover:text-zinc-50 text-decoration-none" href="#">Speaker</a>
+      </li>
+      <li class="drop-list">
+        <a class="p-3 m-2 hover:text-zinc-50 text-decoration-none" style="position: relative" href="#">Key Topic <i
+            class="fa-solid fa-caret-down"></i></a>
+
+        <ul class="dropdown-content" role="menu">
+          <li style="--delay: 1">
+            <a class="hover:text-zinc-50 text-decoration-none" href="field.html">Computer Science and Engineering</a>
+          </li>
+          <li style="--delay: 2">
+            <a class="hover:text-zinc-50 text-decoration-none" href="field.html#electronics">Electronics and
+              Communication</a>
+          </li>
+          <li style="--delay: 3">
+            <a class="hover:text-zinc-50 text-decoration-none" href="field.html#electrical">Electrical and Electronics
+            </a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a class="p-3 m-2 hover:text-zinc-50 text-decoration-none" href="#">Contact Us</a>
+      </li>
+    </nav>
+  </header>
+
+  <header class="hidden max-lg:block mobile my-2 ml-auto">
+    <!-- component -->
+    <!-- component -->
+    <!-- This is an example component -->
+    <div class="max-w-2xl mx-auto">
+      <nav class="border-gray-200">
+        <div class="container mx-auto flex flex-wrap items-center justify-between">
+          <a href="/" class="flex">
+            <svg class="h-10 mr-3" width="51" height="70" viewBox="0 0 51 70" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0)">
+                <path d="M1 53H27.9022C40.6587 53 51 42.7025 51 30H24.0978C11.3412 30 1 40.2975 1 53Z" fill="#76A9FA">
+                </path>
+                <path
+                  d="M-0.876544 32.1644L-0.876544 66.411C11.9849 66.411 22.4111 55.9847 22.4111 43.1233L22.4111 8.87674C10.1196 8.98051 0.518714 19.5571 -0.876544 32.1644Z"
+                  fill="#A4CAFE"></path>
+                <path d="M50 5H23.0978C10.3413 5 0 15.2975 0 28H26.9022C39.6588 28 50 17.7025 50 5Z" fill="#1C64F2">
+                </path>
+              </g>
+              <defs>
+                <clipPath id="clip0">
+                  <rect width="51" height="70" fill="white"></rect>
+                </clipPath>
+              </defs>
+            </svg>
+            <span class="self-center text-lg font-semibold whitespace-nowrap">ICTACME</span>
+          </a>
+          <button data-collapse-toggle="mobile-menu" type="button"
+            class="md:hidden ml-3 text-gray-400 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-300 rounded-lg inline-flex items-center justify-center"
+            aria-controls="mobile-menu-2" aria-expanded="false">
+            <span class="sr-only">Open main menu</span>
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd"
+                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                clip-rule="evenodd"></path>
+            </svg>
+            <svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd"
+                d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                clip-rule="evenodd"></path>
+            </svg>
+          </button>
+          <div class="hidden md:block w-full md:w-auto" id="mobile-menu">
+            <ul class="flex-col md:flex-row flex md:space-x-8 mt-4 md:mt-0 md:text-sm md:font-medium">
+              <li>
+                <a href="/"
+                  class="bg-blue-700 md:bg-transparent text-white block pl-3 pr-4 py-2 md:text-blue-700 md:p-0 rounded focus:outline-none"
+                  aria-current="page">Home</a>
+              </li>
+              <li>
+                <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar"
+                  class="text-gray-700 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 pl-3 pr-4 py-2 md:hover:text-blue-700 md:p-0 font-medium flex items-center justify-between w-full md:w-auto">
+                  Key Topic
+                  <svg class="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                      d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                      clip-rule="evenodd"></path>
+                  </svg>
+                </button>
+                <!-- Dropdown menu -->
+                <div id="dropdownNavbar"
+                  class="hidden bg-white text-base z-10 list-none divide-y divide-gray-100 rounded shadow my-4 w-44">
+                  <ul class="py-1" aria-labelledby="dropdownLargeButton">
+                    <li>
+                      <a href="field.html" class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2">Computer
+                        Science and Engineering</a>
+                    </li>
+                    <li>
+                      <a href="field.html#electronics"
+                        class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2">Electronics and
+                        Communication</a>
+                    </li>
+                  </ul>
+                  <div class="py-1">
+                    <a href="field.html#electrical"
+                      class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2">Electronics and Communication</a>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <a href="/register.html"
+                  class="text-gray-700 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-blue-700 md:p-0">Registration</a>
+              </li>
+              <li>
+                <a href="#"
+                  class="text-gray-700 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-blue-700 md:p-0">
+                  Commitee</a>
+              </li>
+              <li>
+                <a href="#"
+                  class="text-gray-700 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-blue-700 md:p-0">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <script src="https://unpkg.com/@themesberg/flowbite@1.1.1/dist/flowbite.bundle.js"></script>
+  </header>
+
+  <section id="main-container" class="py-24">
+    <h1 class="md:text-7xl text-5xl p-3 pb-0">ICTACME - 2024</h1>
+    <h2 class="text-4xl p-5 pt-1">
+      International <span class="text-green-400">Conference</span>
+    </h2>
+    <h3 class="text-2xl p-3">
+      <span class="text-green-400">KMEA Engineering College</span> Association
+      with Universiti Teknologi MARA, Shah Alam, Malayia and Durban University of Technology, South Africa
+    </h3>
+    <div class="m-3 mt-18 flex flex-wrap">
+      <a href="/register.html"
+        class="text-xl my-2 hover:text-zinc-50 text-decoration-none font-bold rounded-md bg-green-500 p-3 px-5">Registraion</a>
+      <a href="#"
+        class="hidden my-2 mx-2 md:block text-xl hover:text-zinc-50 text-decoration-none font-bold rounded-md bg-blue-500 p-3 px-5 mx-1">Abstract
+        Submission</a>
+    </div>
+
+    <div class="hidden md:flex justify-center mt-32 cursor-pointer">
+      <div class="text-xl font-bold rounded-l-md bg-green-500 p-3 px-5 flex">
+        <div class="my-auto text-3xl px-2 py-1 m-1 bg-green-400 rounded-md">
+          <i class="fa-regular fa-calendar"></i>
+        </div>
+        <div class="my-auto">
+          <h1>Conference Date</h1>
+          <h2 class="text-sm font-medium">22th-23th February,2024</h2>
+        </div>
+      </div>
+
+      <div class="text-xl font-bold bg-blue-500 p-3 px-5 flex">
+        <div class="my-auto text-2xl px-3 py-2 m-1 bg-blue-400 rounded-md">
+          <i class="fa-solid fa-location-dot"></i>
+        </div>
+        <div>
+          <h1>Conference Venue</h1>
+          <h2 class="text-sm font-medium">KMEA Engineering College, Kerala</h2>
+        </div>
+      </div>
+
+      <div class="text-md font-bold rounded-r-md bg-green-500 p-3 px-5 flex">
+        <div class="my-auto text-3xl px-2 py-1 m-1 bg-green-400 rounded-md">
+          <i class="fa-solid fa-headphones"></i>
+        </div>
+        <div class="my-auto">
+          <h1>CALL:(+91)0000000000</h1>
+          <h2 class="text-sm font-medium">
+
+          </h2>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="conference-section" class="flex flex-col text-center pad">
+    <h1 class="self-center m-8 text-4xl font-bold">About the Conference</h1>
+    <div class="flex md:mx-32">
+      <div class="mx-12 hidden md:block">
+        <img src="img/about-img.jpg" style="width: 1200px" />
+      </div>
+      <div class="">
+        <h4 class="text-2xl font-bold">
+          International Conference on Technological Advancements in Civil and Mechanical Engineering
+        </h4>
+        <p class="sm:text-xl md:w-2/3 mx-auto">
+          We are pleased to inform you know about the upcoming International Conference on Technological Advancements in
+          Civil and Mechanical Engineering, which is scheduled to take place at the KMEA Engineering College in
+          Edathala, Kerala, from February 22–23, 2024. The purpose of this prestigious conference on advancements in
+          civil and mechanical engineering is to give researchers, academicians, industrial participants, and students a
+          forum to present the results of their research. This would be an interdisciplinary forum to bring together
+          experts from mechanical engineering, civil engineering, and material science to interact and discuss their
+          findings.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="date-section" class="flex flex-col justify-center m-24">
+    <h1 class="self-center m-8 text-4xl font-bold">Importance Dates</h1>
+    <div class="flex justify-around my-5">
+      <div class="dates-box p-3 md:p-5 bg-orange-300">
+        <h1 class="text-xl">Abstract Submission <br />Deadline</h1>
+        <h2 class="text-xl font-bold">15 December 2023</h2>
+      </div>
+      <div class="dates-box p-3 mx-3 md:p-5 bg-orange-300">
+        <h1 class="text-xl">Full Paper Submission <br />Deadline</h1>
+        <h2 class="text-xl font-bold">5 January 2024</h2>
+      </div>
+      <div class="dates-box p-3 mx-3 md:p-5 bg-orange-300">
+        <h1 class="text-xl">Registration Fee Submission <br />Deadline</h1>
+        <h2 class="text-xl font-bold">15 January 2024</h2>
+      </div>
+    </div>
+  </section>
+
+  <section id="Institution-section" class="flex flex-col text-center pad">
+    <h1 class="self-center m-8 text-4xl font-bold">About the Institution</h1>
+    <div class="flex md:mx-32">
+      <div class="mx-12 hidden md:block">
+        <img src="img/about-img.jpg" style="width: 1200px" />
+      </div>
+      <div class="">
+        <h4 class="text-2xl font-bold">
+          KMEA Engineering College </h4>
+        <p class="sm:text-xl md:w-2/3 mx-auto">
+          The Kerala Muslim Educational Association was established in 1957 with the lofty aim of setting up quality
+          educational institutions on a par with global standards promoting education among minority communities and
+          providing financial aid to the economically weak and deserving students. Late Sri. Poker Sahib, an eminent
+          Parliamentarian and Philanthropist and late Sri. K. M. Seethi Sahib, former speaker of the Kerala Legislative
+          Assembly, was the key forces behind the formation of KMEA. Former Chief Minister Sri. C. H. Muhammed Koya has
+          also actively participated in the formation of the association. KMEA Engineering College (KEC) was established
+          in 2002 under the management of Kerala Muslim Educational Association, a charitable trust. It is approved by
+          All India Council for Technical Education (AICTE) and affiliated to APJ Abdul Kalam Technological University.
+          The college is accredited by the National Assessment and Accreditation Council (NAAC). Five UG programs, Civil
+          Engineering, Computer Science & Engineering, Electrical & Electronics Engineering, Electronics & Communication
+          and Mechanical Engineering are accredited by the National Board of Accreditation (NBA).
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <br />
+
+  <section id="Awards-section" class="flex flex-col text-center pad">
+    <h1 class="self-center m-8 text-4xl font-bold">Awards</h1>
+    <div class="flex md:mx-32">
+      <!--<div class="mx-12 hidden md:block">
+        <img src="img/about-img.jpg" style="width: 600px" />
+      </div>-->
+      <div class="">
+        <h4 class="text-2xl font-bold">
+          Conference Awards for Short Invited Lectures & Posters </h4>
+        <p class="sm:text-xl md:w-2/3 mx-auto">
+          The conference organizers will provide three best presentation awards for the best short, invited talks and
+          three best posters. The International Jury will evaluate the short invited talks and posters.<br />
+          Conference Proceedings in International Peer Reviewed Journal.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <br />
+
+  <section id="panel-section" class="flex flex-col text-center pad">
+    <h1 class="self-center m-8 text-4xl font-bold">Panel discussion</h1>
+    <div class="flex md:mx-32">
+      <!--<div class="mx-12 hidden md:block">
+        <img src="img/about-img.jpg" style="width: 600px" />
+      </div>-->
+      <div class="">
+        <h4 class="text-2xl font-bold">
+          Panel discussion on international funding for nanotechnology and nanoscience</h4>
+        <p class="sm:text-xl md:w-2/3 mx-auto">
+          Materials are essential since they affect every nation, all nations, and a wide range of issues that are
+          important to society both now and, arguably, far into the future. Investigating funding options both
+          nationally and internationally therefore becomes necessary. This panel discussion will be centred on issues
+          which will be followed up after the conference in order to create a global funding structure that includes
+          many different countries.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!--
+  <section id="About-section" class="flex flex-col justify-center m-24">
+    <h1 class="self-center m-8 text-4xl font-bold">About Academic Partner</h1>
+    <p>
+      Conference Awards for Short Invited Lectures & Posters The conference
+      organizers will provide three best presentation awards for the best
+      short invited talks and three best posters. The International Jury will
+      evaluate the short invited talks and posters. Conference Proceedings in
+      International Peer Reviewed Journal.
+    </p>
+  </section>
+  -->
+
+  <div class="footer-dark">
+    <footer>
+      <div class="container">
+        <div class="flex">
+          <div class="col-sm-6 col-md-3 item">
+            <h3>Services</h3>
+            <ul>
+              <li><a href="#">Web design</a></li>
+              <li><a href="#">Development</a></li>
+              <li><a href="#">Hosting</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-6 col-md-3 item">
+            <h3>About</h3>
+            <ul>
+              <li><a href="#">Company</a></li>
+              <li><a href="#">Team</a></li>
+              <li><a href="#">Careers</a></li>
+            </ul>
+          </div>
+          <div class="col-md-6 item text">
+            <h3>ICACCES 2024</h3>
+            <p>
+              KMEA Engineering College, Edathala will host the First
+              International Conference on Advanced Computing, Communication
+              and Electrical Systems (ICACCES) from January 11-13, 2024.
+            </p>
+          </div>
+        </div>
+        <div class="item social">
+          <a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i
+              class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a
+            href="#"><i class="icon ion-social-instagram"></i></a>
+        </div>
+        <p class="copyright">ICACCES 2024 © 2024</p>
+      </div>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gN538M6GJt05D5uUg6Z67IfvC7v2m6nOp6QbO5D5R5C/G4tvzL46P5enZM+AYuoV"
+    crossorigin="anonymous"></script>
+
+  </script>
+</body>
+
+</html>
