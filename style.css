@@ -29,7 +29,7 @@ a:hover {
   text-decoration: none;
 }
 .nav-fixed.main{
-  top: 120px;
+  top: 20px;
   left: 0;
   right:0;
   margin:auto;
@@ -37,6 +37,11 @@ a:hover {
   color: white;
   border-radius: 3px;
   background-color: var(--nav-fixed);
+}
+
+
+.nav-btn:hover{
+  color: #e8f04d;
 }
 
 /* header */
@@ -49,7 +54,7 @@ a:hover {
 /* container 1 */
 
 #main-container{
-  background-image:url("/img/Conference.jpg");
+  background-image:url("/img/back.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color:white;

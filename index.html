@@ -23,43 +23,10 @@
 
 <body class="sm:mx-4 mx-2">
   <header class="hidden lg:inline-block">
-    <div class="nav-header flex justify-between">
-      <h1 class="">
-        <img src="/img/logo.jpg" alt="Logo" style="height: 150px; width: 150px;" />
-      </h1>
-
-      <div class="flex">
-        <div class="upper-column info-box m-5 mx-10 flex px-5">
-          <div class="icon-box my-auto">
-            <i class="fa-solid p-2 px-3 fa-phone text-2xl"></i>
-          </div>
-          <ul class="font-mono header-text font-extrabold mx-1">
-            <li>
-              Phone <br />
-              +91 9496827556 / +91 9048602221
-            </li>
-          </ul>
-        </div>
-
-
-
-        <div class="upper-column info-box m-5 mx-10 flex">
-          <div class="icon-box p-2 px-3 my-auto">
-            <i class="fa-solid fa-envelope text-2xl"></i>
-          </div>
-          <ul class="font-mono header-text font-extrabold mx-1">
-            <li>
-              Mail to <br />
-              ictacme@kmeacollege.ac.in
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
     <nav
       class="flex dropdown list-none font-semibold text-md w-2/3 absolute mx-auto nav-fixed main justify-center p-3 py-4">
       <li>
-        <a class="p-3 m-2 hover:text-zinc-50 text-decoration-none" href="/">Home</a>
+        <a class="p-3 m-2 hover:text-zinc-50 text-decoration-none nav-btn" href="/">Home</a>
       </li>
       <li>
         <a class="p-3 m-2 hover:text-zinc-50 text-decoration-none" href="index.html#conference-section">About
@@ -75,8 +42,8 @@
         <a class="p-3 m-2 hover:text-zinc-50 text-decoration-none" href="speakers.html">Speakers</a>
       </li>
       <li class="drop-list">
-        <a class="p-3 m-2 hover:text-zinc-50 text-decoration-none" style="position: relative" href="field.html">Key Topic <i
-            class="fa-solid fa-caret-down"></i>
+        <a class="p-3 m-2 hover:text-zinc-50 text-decoration-none" style="position: relative" href="field.html">Key
+          Topic <i class="fa-solid fa-caret-down"></i>
         </a>
 
         <ul class="dropdown-content" role="menu">
@@ -101,26 +68,8 @@
     <div class="max-w-2xl mx-auto">
       <nav class="border-gray-200">
         <div class="container mx-auto flex flex-wrap items-center justify-between">
-          <a href="/" class="flex">
-            <svg class="h-10 mr-3" width="51" height="70" viewBox="0 0 51 70" fill="none"
-              xmlns="http://www.w3.org/2000/svg">
-              <g clip-path="url(#clip0)">
-                <path d="M1 53H27.9022C40.6587 53 51 42.7025 51 30H24.0978C11.3412 30 1 40.2975 1 53Z" fill="#76A9FA">
-                </path>
-                <path
-                  d="M-0.876544 32.1644L-0.876544 66.411C11.9849 66.411 22.4111 55.9847 22.4111 43.1233L22.4111 8.87674C10.1196 8.98051 0.518714 19.5571 -0.876544 32.1644Z"
-                  fill="#A4CAFE"></path>
-                <path d="M50 5H23.0978C10.3413 5 0 15.2975 0 28H26.9022C39.6588 28 50 17.7025 50 5Z" fill="#1C64F2">
-                </path>
-              </g>
-              <defs>
-                <clipPath id="clip0">
-                  <rect width="51" height="70" fill="white"></rect>
-                </clipPath>
-              </defs>
-            </svg>
-            <span class="self-center text-lg font-semibold whitespace-nowrap">ICTACME</span>
-          </a>
+
+
           <button data-collapse-toggle="mobile-menu" type="button"
             class="md:hidden ml-3 text-gray-400 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-300 rounded-lg inline-flex items-center justify-center"
             aria-controls="mobile-menu-2" aria-expanded="false">
@@ -158,11 +107,12 @@
                   class="hidden bg-white text-base z-10 list-none divide-y divide-gray-100 rounded shadow w-44">
                   <ul class="" aria-labelledby="dropdownLargeButton">
                     <li>
-                      <a href="field.html#mechanical" class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2">Mechanical Engineering</a>
+                      <a href="field.html#mechanical"
+                        class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2">Mechanical Engineering</a>
                     </li>
                     <li>
-                      <a href="field.html#civil"
-                        class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2">Civil Engineering</a>
+                      <a href="field.html#civil" class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2">Civil
+                        Engineering</a>
                     </li>
                   </ul>
                 </div>
@@ -195,17 +145,23 @@
   </header>
 
   <section id="main-container" class="py-24">
-    <h1 class="md:text-7xl text-5xl p-3 pb-0">ICTACME - 2024</h1>
+    <h1 class="md:text-5xl text-3xl p-3 pb-0 text-center">International Conference on Technological Advancements in
+      Civil and Mechanical Engineering <span style="color: #e8f04d;">(ICTACME) - 2024</span></h1>
+    <h1 class="p-3"><img class="mx-auto block" src="/img/logo.jpg" alt="Logo"
+        style="height: 150px; width: 150px;" />
+    </h1>
+    <!--
     <h2 class="text-4xl p-5 pt-1">
       International <span class="text-green-400">Conference</span>
     </h2>
+    -->
     <h3 class="text-2xl p-3">
-      <span class="text-green-400">KMEA Engineering College</span> Association
+      <span style="color: #e8f04d;">KMEA Engineering College</span> Association
       with Universiti Teknologi MARA, Shah Alam, Malayia and Durban University of Technology, South Africa
     </h3>
     <div class="m-3 mt-18 flex flex-wrap">
       <a href="/register.html"
-        class="text-xl my-2 hover:text-zinc-50 text-decoration-none font-bold rounded-md bg-green-500 p-3 px-5">Registraion</a>
+        class="text-xl my-2 hover:text-zinc-50 text-decoration-none font-bold rounded-md p-3 px-5" style="background-color: #e8f04d;">Registraion</a>
       <a href="#"
         class="my-2 md:block text-xl hover:text-zinc-50 text-decoration-none font-bold rounded-md bg-blue-500 p-3 px-5 mx-1">Abstract
         Submission</a>
