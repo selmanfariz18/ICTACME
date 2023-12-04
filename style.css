@@ -54,10 +54,11 @@ a:hover {
 /* container 1 */
 
 #main-container{
-  background-image:url("/img/back.jpg");
+  background-image:linear-gradient(#00000086,#000000b9),url("/img/back.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color:white;
+  
   
 }
 
