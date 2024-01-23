@@ -288,3 +288,8 @@ a:hover {
   padding-top: 20px;
   padding-bottom: 50px;
 }
+
+
+.strike-through {
+  text-decoration: line-through;
+}
